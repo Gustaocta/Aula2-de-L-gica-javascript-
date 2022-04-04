@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>polígono</title>
+</head>
+<body>
+    
+
+    <script>
+        let lados = parseInt(prompt("Digite a quantidade de lados: "))
+    
+        switch(lados){
+            case 3:
+                alert ("É um triângulo!")
+            break;
+
+            case 4:
+                alert ("É um quadrado!")
+            break;
+
+            case 5:
+                alert ("É um pentágono!")
+            break;
+        }    
+
+        if(lados < 3){
+            alert("não é um polígono")
+        }else if(lados > 5){
+            alert("polígono não identificado")
+        }
+    </script>
+
+</body>
+</html>
